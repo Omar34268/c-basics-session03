@@ -1,0 +1,4 @@
+int pages = 464;
+
+string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+Console.WriteLine(sizeLabel);
